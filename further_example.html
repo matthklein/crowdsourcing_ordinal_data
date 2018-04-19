@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	
+	
+	<body>
+		
+		<!--<div style="padding-bottom:58px">-->
+		<p>Assume we are dealing with three objects, say object A, object B and object C. Assume we have some notion of assessing similarity 
+		between these objects, that is we could assign some numbers quantifying how similar two of the three objects are to each other.</p>
+		
+		<p>Let us denote these numbers by <i>similarity(A,B)</i>, <i>similarity(A,C)</i> and <i>similarity(B,C)</i>. A high value of 
+		<i>similarity(A,B)</i> means that 
+		objects A and B are very similar to each other whereas a low value means that they are quite dissimilar. The numbers
+		 <i>similarity(A,C)</i> and <i>similarity(B,C)</i> have a similar meaning.</p>
+		 
+		 <p>We say that object A is the most representative/most central object within the objects A, B and C if it holds that <br>
+		 
+		 <center><i>similarity(A,B)</i> &gt <i>similarity(B,C)</i> &nbsp &nbsp AND &nbsp &nbsp <i>similarity(A,C)</i> &gt <i>similarity(B,C)</i>. </center>
+		 
+		 </p>
+		 
+		 
+		 <br>
+		 		 
+		 <p>
+		Consider the following <b>example</b>:
+		
+		<br>
+		<br>
+		In the following three images you are shown sneakers, rubber boots and slippers.
+		</p>
+		
+		
+		<img  src="sneakers.jpg"  style="margin: 28px; width: 20%; height: auto;">
+		<img   src="boots.jpg"  style="margin: 28px; width: 20%; height: auto;">
+		<img   src="slippers.jpg"  style="margin: 28px; width: 20%; height: auto;">
+		
+		<p>All of them are shoes. Clearly, the rubber boots and the slippers are very dissimilar, but the sneakers are 
+		not so dissimilar from either the rubber boots or the slippers. Hence <i>similarity(sneakers,rubber boots)</i> &gt <i>similarity(rubber boots,slippers)</i> 
+		and <i>similarity(sneakers,slippers)</i> &gt <i>similarity(rubber boots,slippers)</i>. The sneakers are the most central object!</p>
+		
+		<br>
+		<p>In the survey you should determine the most central object in a triplet of cars. 
+		Of course, in most cases (perhaps in all?) there is no <i>true</i> answer. Your answer depends on how you perceive and assess similarity between cars!</p>
+		<!--</div>-->
+		
+		<!--<div style="position:absolute;bottom:0;height:58px">
+		<i>Legal note: The pictures of the shoes were taken by myself. All car pictures shown on this webpage were found on Wikimedia 
+		Commons and have been released into the public domain by their authors. </i> 
+		</div>-->
+		
+		<br>
+		<p><i>Legal note: The pictures of the shoes were taken by myself. All car pictures shown on this webpage were found on <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a> and have been released into the public domain by their authors. </i> </p>
+		
+	
+	</body>
+</html>
